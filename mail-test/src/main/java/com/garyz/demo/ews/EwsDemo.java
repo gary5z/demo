@@ -58,10 +58,10 @@ public class EwsDemo {
 	public static void main(String[] args) throws Exception {
 
 		AccessInfo info = new AccessInfo();
-		info.setEmail("username@capol.cn");
+		info.setEmail("zengzhiqiang@capol.cn");
 		info.setDomain("CAPOL.CN");
-		info.setUserName("username");
-		info.setPassword("password");
+		info.setUserName("zengzhiqiang");
+		info.setPassword("Zzq!@#456");
 		info.setServerUrl("https://mail.capol.cn/ews/exchange.asmx");
 
 		readMail(info);
