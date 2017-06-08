@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.garyz.test.ews;
+package com.garyz.demo.ews;
 
 /**
  * @author zengzhiqiang

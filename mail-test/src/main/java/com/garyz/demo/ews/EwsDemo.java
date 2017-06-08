@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.garyz.test.ews;
+package com.garyz.demo.ews;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -47,6 +47,8 @@ import microsoft.exchange.webservices.data.search.ItemView;
 import microsoft.exchange.webservices.data.search.filter.SearchFilter;
 
 /**
+ * 通过ews收取exchange收件箱的邮件，并保存到本地eml格式邮件文件
+ * 
  * @author zengzhiqiang
  * @version 2017年6月5日
  *
@@ -56,11 +58,11 @@ public class EwsDemo {
 	public static void main(String[] args) throws Exception {
 
 		AccessInfo info = new AccessInfo();
-		info.setEmail("test@test.cn");
-		info.setDomain("test.CN");
-		info.setUserName("test");
-		info.setPassword("test");
-		info.setServerUrl("https://mail.test.cn/ews/exchange.asmx");
+		info.setEmail("username@capol.cn");
+		info.setDomain("CAPOL.CN");
+		info.setUserName("username");
+		info.setPassword("password");
+		info.setServerUrl("https://mail.capol.cn/ews/exchange.asmx");
 
 		readMail(info);
 	}
