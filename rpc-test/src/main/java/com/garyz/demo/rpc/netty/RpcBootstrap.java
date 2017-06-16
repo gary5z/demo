@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.garyz.demo.rpc;
+package com.garyz.demo.rpc.netty;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,6 +12,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class RpcBootstrap {
 	public static void main(String[] args) {
-		new ClassPathXmlApplicationContext("spring.xml");
+		new ClassPathXmlApplicationContext("spring-netty-server.xml");
 	}
 }
